@@ -2,5 +2,10 @@
 -> npm i typescript @types/node -D
 -> npx tsc --init
 
+=> Primeiramento criamos as entidades reconhecidas, cada uma sera uma classe exportada que podera ser chamada para criar o que ela descrever, como por exemplo criar um student ou ate uma question.
+
+=> Em paralelo criamos tambem os use-cases, que são basicamente a cominicação de entidades, por exemplo o use-case answer-question liga um instructor respondendo uma question, essa por sua vez sendo feita por um student.
 
 -> npm i vitest -D
+
+=> Em paralelo tambem temos os testes unitarios para nossos use-cases
